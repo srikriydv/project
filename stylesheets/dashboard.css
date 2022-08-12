@@ -84,22 +84,13 @@
 .friends-list {
   padding: 15px;
   list-style: none;
-  color: #999;
+  /* color: #999; */
   font-family: 'Helvetica Neue';
   font-size: 14px;
 
 }
 
-.friends-box {
-  background: #f6f6f6;
-  color: #ccc;
-  font-size: 11px;
-  text-transform: uppercase;
-  border-top: 1px solid #f3f3f3;
-  border-bottom: 1px solid #eee;
-  padding: 4px 0;
-  overflow: hidden;
-}
+
 
 .friends-box h1 {
   float:left;
