@@ -1,6 +1,6 @@
 
 .header-background-dashboard {
-  background-color: blue;
+  background-color: rgb(16, 16, 83);
   overflow:hidden;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -13,7 +13,7 @@
   margin: 0 auto;
 }
 #bill{
-  color: fuchsia;
+  color: rgb(29, 151, 141);
 }
 .header-logo-dashboard {
   float:left;
@@ -138,7 +138,7 @@
 .dashboard-top {
   overflow:hidden;
   border-bottom: 1px solid #ddd;
-  color: blue;
+  color: rgb(16, 16, 83);
 }
 
 .dashboard-top h1 {
@@ -196,7 +196,7 @@ button:hover {
 
 
 .dashboard-button-list li:nth-child(2n+1) {
-  background: blue;
+  background: rgb(16, 16, 83);
   color: #fff;
   text-shadow: 0 -1px 0 #318970;
   border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
@@ -249,7 +249,7 @@ button:hover {
 .payments-section {
   padding: 10px;
   background-color: #fff;
-  color: blue;
+  color: rgb(16, 16, 83);
   overflow: hidden;
 }
 .owe-titles {
@@ -284,8 +284,8 @@ button:hover {
 }
 
 .profile-pic {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   background-image: url(person-profile.png);
   background-size: cover;
   display:inline-block;

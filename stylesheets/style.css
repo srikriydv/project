@@ -10,9 +10,10 @@
     user-select: none;
 }
 :root {
-  --theme-col: #2d4bf0; 
-  --pure-white: #fff;
-  --text-black: #242424;
+  --theme-col: fuchsia; 
+  --pure-white: blue;
+  --text-black: white;
+  background-color: rgb(7, 7, 57);
 }
 .btn {
   height: fit-content;
