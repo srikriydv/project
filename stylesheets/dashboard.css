@@ -1,6 +1,6 @@
 
 .header-background-dashboard {
-  background-color: violet;
+  background-color: blue;
   overflow:hidden;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -13,7 +13,7 @@
   margin: 0 auto;
 }
 #bill{
-  color: blue;
+  color: fuchsia;
 }
 .header-logo-dashboard {
   float:left;
@@ -138,6 +138,7 @@
 .dashboard-top {
   overflow:hidden;
   border-bottom: 1px solid #ddd;
+  color: blue;
 }
 
 .dashboard-top h1 {
@@ -153,6 +154,7 @@
   float:right;
   padding-top: 13px;
   margin-right: 10px;
+  
 }
 
 .dashboard-button-list li {
@@ -171,7 +173,7 @@ button:hover {
 }
 
 .dashboard-button-list li:nth-child(2) {
-  background: #ff652f;
+  background: red;
   color: #fff;
   text-shadow: 0 -1px 0 #c83400;
   border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
@@ -194,7 +196,7 @@ button:hover {
 
 
 .dashboard-button-list li:nth-child(2n+1) {
-  background: #5bc5a7;
+  background: blue;
   color: #fff;
   text-shadow: 0 -1px 0 #318970;
   border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
@@ -247,7 +249,7 @@ button:hover {
 .payments-section {
   padding: 10px;
   background-color: #fff;
-  color: #999;
+  color: blue;
   overflow: hidden;
 }
 .owe-titles {
@@ -272,13 +274,13 @@ button:hover {
   float: left;
   border-right: 1px solid #ddd;
   margin-left: 10px;
-  color: black;
+  color: red;
 }
 
 .you-are-owed-half {
-  float: left;
+  float: right;
   padding-left: 15px;
-  color: black;
+  color: green;
 }
 
 .profile-pic {
