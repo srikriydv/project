@@ -7,93 +7,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="stylesheets/dashboard.css">
     <link rel="stylesheet" href="stylesheets/reset.css">
-    <style>
-           * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    list-style: none;
-    text-decoration: none;
-    user-select: none;
-}
-:root {
-  --theme-col: #2d4bf0; 
-  --pure-white: #fff;
-  --text-black: #242424;
-}
-.btn {
-  height: fit-content;
-  width: 100px;
-  padding: 0.25rem 0.75rem;
-  font-size: 15px;
-  color: var(--text-black);
-  font-weight: 500;
-  border-radius: 0.25rem;
-  text-align: center;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-.p-btn {
-  color: var(--pure-white);
-  border: 2px solid var(--theme-col);
-  background-color: var(--theme-col);
-}
-.p-btn:hover {
-  filter: saturate(0.7);
-}
-.s-btn {
-  color: var(--theme-col);
-  border: 2px solid var(--theme-col);
-  background-color: transparent;
-}
-.navbar {
-  height: 4rem;
-  padding: 0 4rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.logo a{
-    font-size: xx-large;
-    font-weight: bold;
-    cursor: pointer;
-    color: var(--text-black);
-}
-.l-initial{
-    color: var(--theme-col);
-}
-.nav-link ul{
-    display: flex;
-    align-items: center;
-}
-.nav-link ul li{
-    margin: 0 0.75rem;
-    margin-top: .15rem;
-    padding-bottom: 2px;
-    color: var(--text-black);
-    font-weight: 500;
-    cursor: pointer;
-    line-height: 4rem;
-    border-bottom: 2px solid transparent;
-    transition: all 0.3s ease;
-}
-.nav-link ul li:hover{
-    border-bottom: 2px solid #2d4af010;
-}
-.nav-link ul li:nth-child(1){
-    padding: 0;
-    border-bottom: 2px solid var(--theme-col);
-}
-.cta-btn{
-    display: flex;
-}
-.cta-btn .btn{
-    margin: 0 .25rem;
-} 
-    </style>
 </head>
 <body>
     <div id="root">
@@ -116,8 +29,8 @@
                 <div class="dashboard-left"><div>
                     <div><noscript></noscript></div>
                     <div class="friends-list">
-                        <div class="friends-box"><h1></h1>
-                            <div></div>
+                        <div class="friends-box"><h1>Friends</h1>
+                            <div>+Add</div>
                         </div>
                         <ul></ul>
                     </div>
@@ -131,6 +44,7 @@
                     <section class="dashboard-top">
                         <h1>Dashboard</h1>
                         <ul class="dashboard-button-list">
+                            <li><button>Add Friend</button></li>
                             <li><button>Create Bill</button></li>
                             <li><button>Settle Up</button></li>
                         </ul>
@@ -138,13 +52,13 @@
                     <section class="dashboard-bottom">
                         <div class="dashboard-block">
                             <div class="title">Total Balance</div>
-                            <div class="amount negative">रु 0.00</div>
+                            <div class="amount negative"><!-- react-text: 79 -->रु<!-- /react-text --><!-- react-text: 80 -->0.00<!-- /react-text --></div>
                         </div>
                         <div class="dashboard-block">
                             <div class="dashboard-block-border">
                                 <div class="title">You Owe</div>
-                                <div class="amount-owe">रु 0.00</div>
-                            </div></div><div class="dashboard-block"><div class="title">You Are Owed</div><div class="amount-owed"> रु 0.00</div>
+                                <div class="amount-owe"><!-- react-text: 85 -->रु<!-- /react-text --><!-- react-text: 86 -->0.00<!-- /react-text --></div>
+                            </div></div><div class="dashboard-block"><div class="title">You Are Owed</div><div class="amount-owed"><!-- react-text: 90 -->रु<!-- /react-text --><!-- react-text: 91 -->0.00<!-- /react-text --></div>
                         </div>
                     </section>
                 </section>
